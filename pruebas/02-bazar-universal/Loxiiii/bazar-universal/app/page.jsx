@@ -6,7 +6,7 @@ export default function Home() {
     <div className="h-screen flex flex-col justify-center items-center space-y-8">
 
       <div>Hello! this is the bazar</div>
-      <Input />
+        <Input />
     </div>
   );
 }
