@@ -10,10 +10,6 @@ export default function Input() {
     console.log(e.target.value);
     setSearch(e.target.value);
   };
-
-  const handleSubmit = () => {
-
-  };
   return (
     <form className="flex space-x-2">
       <input
