@@ -17,7 +17,8 @@ export default function Input() {
         onChange={handleSearchChange}
       />
       {/* <button>Search</button> */}
-      <Link href={`/items?search=${search}`}>Search</Link>
+      <Link href={`/api/items?search=${search}`}>Search</Link>
+      {/*<Link href={`/api/items`}>Search</Link>*/}
     </form>
   );
 }
