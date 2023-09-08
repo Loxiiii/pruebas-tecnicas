@@ -7,8 +7,8 @@ export default async function Items({ searchParams }) {
   console.log('The type is: ', typeof(prods))
   return (
     <div>
-      <div>This is the item page for {searchParams.search}</div>
-      <ul>
+      <div className='mb-5'>This is the item page for {searchParams.search}</div>
+      <ul className='flex flex-col items-center'>
         {
         prods.map((prod) => {
           return (
