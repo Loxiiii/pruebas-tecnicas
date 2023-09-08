@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 import products from '../../../products.json';
 
 export async function GET(request, context) {
-  let searched = request.nextUrl.searchParams.get('search')
+  let searched = request.nextUrl.searchParams.get('q')
 //  const test = 'iphone'
   //  const prods = products.products.filter((prod) => prod.title.toLowerCase().includes(request.params.q.toLowerCase()));
   //    typeof (prod.title) === 'string');
